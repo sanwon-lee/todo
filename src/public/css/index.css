@@ -1,0 +1,109 @@
+.message {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.success {
+  background: #d1e7dd;
+  color: #0f5132;
+  border: 0.0625rem solid #badbcc;
+}
+
+.failure {
+  background: #f8d7da;
+  color: #842029;
+  border: 0.0625rem solid #f5c2c7;
+}
+
+.store-todo {
+  width: 80%;
+  max-width: 1230px;
+  margin: 100px auto 0;
+}
+
+.store-todo__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.store-todo__input {
+  width: 70%;
+}
+
+.store-todo__button {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0.3125rem;
+  width: 20%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.manage-todo {
+  width: 80%;
+  max-width: 1230px;
+  margin: 100px auto 0;
+}
+
+.manage-todo__inner {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.manage-todo__row {
+  border-bottom: 0.0625rem solid #ccc;
+}
+
+.manage-todo__inner th,
+.manage-todo__inner td:not(.manage-todo__item, .manage-todo__delete) {
+  padding: 1.25rem;
+}
+
+.manage-todo__header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.manage-todo__item {
+  font-size: 0.8rem;
+  width: 90%;
+  padding: 1.25rem 0.4rem 1.25rem 1.25rem;
+}
+
+.manage-todo__item-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage-todo__item-input {
+  width: 70%;
+  border: none;
+}
+
+.manage-todo__item-input:focus {
+  outline: none;
+  border-bottom: 0.0625rem solid black;
+}
+
+.manage-todo__button {
+  color: #fff;
+  border: none;
+  border-radius: 0.3125rem;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.manage-todo__item-button {
+  background: #f00;
+}
+
+.manage-todo__delete {
+  padding: 1.25rem 1.25rem 1.25rem 0.4rem;
+}
+
+.manage-todo__delete-button {
+  background: #00f;
+}
